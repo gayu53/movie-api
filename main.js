@@ -10,7 +10,7 @@ app.get('/', (req, res) => {
 })
 
 
-// CRUD functionality 
+// CRUD functionality  of movies
 app.use("/movies",moviesRoutes);
 
 
