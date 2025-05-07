@@ -2,7 +2,13 @@ export const MovieIndex = (req,res)=>{
     res.send("Get all the movie list")
    };
    export const MovieCreate =  (req,res)=>{
-    res.send("Create a movies")
+    // id,title, desc
+    // create the move info 
+    console.log(req.body);
+    return res.json(req.body);
+
+
+    // res.send("Create a movies")
    };
    export const MovieUpdate =(req,res)=>{
     res.send("Update the movie")
